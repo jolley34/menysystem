@@ -1,7 +1,7 @@
 const menu = document.querySelector(".menu");
 const item = document.querySelectorAll(".item");
-const dropdown= document.querySelector(".dropdown");
-const closemenu= document.querySelector(".closemenu");
+const dropdown = document.querySelector(".dropdown");
+const closemenu = document.querySelector(".closemenu");
 const openmenu = document.querySelector(".openmenu");
 
 function toggleMenu() {
