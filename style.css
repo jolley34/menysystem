@@ -87,15 +87,7 @@ li {
   display: none;
 }
 
-.searchbar {
-  display: none;
-}
 
-.search {
-  background: rgb(29, 29, 29);
-  border: none;
-  cursor: pointer;
-}
 
 @media (max-width: 450px) {
   h1 {
