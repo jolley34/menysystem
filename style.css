@@ -39,7 +39,9 @@ p {
 }
 
 .dropdown {
-  z-index: 1;
+  top: 1rem;
+  right: 1rem;
+  z-index: 100;
   padding: 4px;
   background: white;
   cursor: pointer;
@@ -84,6 +86,16 @@ li {
 
 .closemenu {
   display: none;
+}
+
+.searchbar {
+  display: none;
+}
+
+.search {
+  background: rgb(29, 29, 29);
+  border: none;
+  cursor: pointer;
 }
 
 @media (max-width: 450px) {
