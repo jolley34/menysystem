@@ -39,25 +39,21 @@ p {
 }
 
 .dropdown {
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
+  z-index: 1;
   padding: 4px;
-  border: black solid 1px;
   background: white;
   cursor: pointer;
   background: rgb(29, 29, 29);
   border: none;
 }
 
-li {
-  list-style: none;
-}
 
 a {
   text-decoration: none;
   color: white;
   font-size: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
 }
 
 i {
@@ -65,11 +61,6 @@ i {
   color: #fff;
 }
 
-button {
-  text-decoration: none;
-  border: none;
-  background-color: (29, 29, 29);
-}
 
 .menu {
   position: fixed;
@@ -90,7 +81,8 @@ button {
 
 li {
   padding-bottom: 2rem;
-  font-weight: 600;
+  list-style: none;
+  
 }
 
 .closemenu {
